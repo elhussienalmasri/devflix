@@ -1,13 +1,10 @@
-FROM node:18
-
-WORKDIR /app
-
-COPY package*.json ./
-
-RUN npm install
-
-COPY . .
+FROM --platform=linux/amd64 node:20
 
 EXPOSE 8080
+WORKDIR /app
+COPY package.json package-lock.json ./ 
+RUN npm install
+COPY . . 
+RUN wget https://truststore.pki.rds.amazonaws.com/global/global-bundle.pem
 
-CMD ["npm", "start"]
+ENTRYPOINT npm run start
