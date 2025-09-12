@@ -4,11 +4,11 @@
 
 [Problem Description  ](#problem-description)
 
-[Solution 1](#solution-1-app-runner-ecr-codebuild-documentdb-s3-cloudfront)
+[Solution 1](#solution-1-app-runner--ecr--codebuild--documentdb--s3--cloudfront)
 
-[Solution 2](#solution-2-alb-vpc-ec2-asg-documentdb-s3-cloudfront)
+[Solution 2](#solution-2-alb--vpc--ec2--asg--documentdb--s3--cloudfront)
 
-[Attachments](#attachments)
+[Attachment](#attachments)
 
 
 
